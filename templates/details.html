@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predictive Pulse - Enter Details</title>
+</head>
+<body>
+    <h2>Enter Your Health Information</h2>
+    <form method="POST" action="/predict">
+        <label for="age">Age:</label>
+        <input type="text" name="age" required><br><br>
+
+        <label for="heart_rate">Heart Rate:</label>
+        <input type="text" name="heart_rate" required><br><br>
+
+        <label for="activity_level">Activity Level:</label>
+        <input type="text" name="activity_level" required><br><br>
+
+        <!-- Add more fields as per your model input -->
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

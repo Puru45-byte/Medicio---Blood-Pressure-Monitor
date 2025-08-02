@@ -1,0 +1,77 @@
+/* Global Font and Base Setup */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #1e882e !important;
+}
+
+.navbar .nav-link {
+  color: #444 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #1e882e !important;
+}
+
+/* Special Button (Check your Blood Pressure) */
+.navbar .btn.btn-info {
+  background-color: #1e882e !important;
+  color: white !important;
+  border-color: #157347 !important;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn.btn-info:hover {
+  background-color: #157347 !important;
+  color: #fff !important;
+}
+
+/* General Button Styling */
+.btn.btn-info {
+  background-color: #1e882e !important;
+  border-color: #157347 !important;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.btn.btn-info:hover,
+.btn.btn-info:focus {
+  background-color: #157347 !important;
+  border-color: #0c5f26 !important;
+}
+
+/* Forms */
+input.form-control,
+select.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #1e882e;
+}
+
+/* Footer or Alert Styling */
+.alert-info {
+  background-color: #d1f2dc;
+  border-color: #1e882e;
+  color: #1e882e;
+}
